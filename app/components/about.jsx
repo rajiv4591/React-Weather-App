@@ -8,10 +8,13 @@ var About = (props) => {
             <p>Here are some tools that are used</p>
             <ul>
                 <li>
-                    <a href="https://facebook.github.io/react">React</a> - This was the JavaScript framework used:
+                    <a href="https://facebook.github.io/react" target="_blank">React</a> - This was the JavaScript framework used:
                 </li>
                 <li>
-                    <a href="http://openweathermap.org">Open Weather Map</a> - This API was used to search for weather by city name.
+                    <a href="http://openweathermap.org" target="_blank">Open Weather Map</a> - This API was used to search for weather by city name.
+                </li>
+                <li>
+                    <a href="http://foundation.zurb.com/" target="_blank">Foundation</a> - Foundation css framework was used for stylings.
                 </li>
             </ul>
         </div>
