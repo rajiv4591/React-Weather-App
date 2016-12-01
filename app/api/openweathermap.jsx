@@ -14,7 +14,7 @@ module.exports = {
                 return response.data.main.temp;
             }
         }, function (error) {
-            throw new Error (error.data.message);
+            throw new Error ('There was an error fetching weather for this city');
         });
     }
 }
